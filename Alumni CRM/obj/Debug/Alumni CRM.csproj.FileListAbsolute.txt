@@ -1,0 +1,112 @@
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\Alumni CRM.dll.config
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\Alumni CRM.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\Alumni CRM.pdb
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\csc.exe
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\csc.exe.config
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\csc.rsp
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\csi.exe
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\csi.exe.config
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\csi.rsp
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.AppContext.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Console.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.IO.Compression.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Security.Claims.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.ValueTuple.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\vbc.exe
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\vbc.exe.config
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\vbc.rsp
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\VBCSCompiler.exe
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\obj\Debug\Alumni CRM.csprojAssemblyReference.cache
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\obj\Debug\Alumni CRM.csproj.CoreCompileInputs.cache
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\obj\Debug\Alumni CRM.csproj.CopyComplete
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\obj\Debug\Alumni CRM.dll
+C:\Users\ShiroLycoris\source\repos\Alumni CRM\Alumni CRM\obj\Debug\Alumni CRM.pdb
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\Alumni CRM.dll.config
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\Alumni CRM.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\Alumni CRM.pdb
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\csc.exe
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\csc.exe.config
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\csc.rsp
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\csi.exe
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\csi.exe.config
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\csi.rsp
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.AppContext.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Console.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\vbc.exe
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\vbc.exe.config
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\vbc.rsp
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\obj\Debug\Alumni CRM.csprojAssemblyReference.cache
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\obj\Debug\Alumni CRM.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\obj\Debug\Alumni CRM.csproj.CopyComplete
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\obj\Debug\Alumni CRM.dll
+C:\Users\Nick\Desktop\AlumniCRM\Alumni CRM\obj\Debug\Alumni CRM.pdb

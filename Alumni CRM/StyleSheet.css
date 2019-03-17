@@ -1,0 +1,88 @@
+﻿body {
+    /* The image used */
+    background-image: url('Images/DiamondPattern.png');
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+}
+
+html {
+    height: 100%;
+}
+
+.header {
+    background-color: white;
+    padding: 0.5%;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-crm {
+    background: #a41e35;
+    border-color: #a41e35;
+    border-bottom: double;
+}
+
+.nav-crm {
+    color: #FFFFFF;
+}
+
+    .nav-crm .nav-item .nav-link {
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 1.5rem;
+    }
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+.footer {
+    position: fixed;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #a41e35;
+    color: white;
+    text-align: center;
+    border-top: double;
+    border-color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+
+.col-md-10 {
+    border-radius: 25px;
+    margin-top: 1%;
+    padding: 1%;
+    min-height: 545px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 55px;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+
+    .col-md-10 {
+        margin-top: 0%;
+        border-radius: unset;
+        min-height: 600px;
+    }
+}
