@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Images\DiamondPattern.png" />
     <Content Include="Images\Primary_2C_PMS201_0.png" />
+    <Content Include="Images\Schedule.PNG" />
     <Content Include="Images\Temple Logo.png" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />

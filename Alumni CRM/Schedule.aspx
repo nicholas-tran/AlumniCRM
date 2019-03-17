@@ -3,4 +3,5 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Schedule</h1>
+    <img src="Images/Schedule.PNG" style="width:100%; height:100%;"/>
 </asp:Content>
