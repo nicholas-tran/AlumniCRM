@@ -36,7 +36,7 @@
                         <li><a href="Alumni.aspx">Alumni</a></li>
                         <li><a href="Analytics.aspx">Analytics</a></li>
                         <li><a href="Notes.aspx">Notes</a></li>            
-                        <li><a href="Notofication.aspx">Notification</a></li>
+                        <li><a href="Notification.aspx">Notification</a></li>
                         <li><a href="Schedule.aspx">Schedule</a></li>            
                     </ul>
                     <ul class="nav navbar-nav navbar-right">

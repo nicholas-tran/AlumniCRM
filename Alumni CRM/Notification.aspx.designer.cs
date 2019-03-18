@@ -10,33 +10,24 @@
 namespace Alumni_CRM {
     
     
-    public partial class WebForm1 {
+    public partial class WebForm7 {
         
         /// <summary>
-        /// lblTitle control.
+        /// gvNotifications control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTitle;
+        protected global::System.Web.UI.WebControls.GridView gvNotifications;
         
         /// <summary>
-        /// gvAlumni control.
+        /// btnAddNotification control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvAlumni;
-        
-        /// <summary>
-        /// btnDownload control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDownload;
+        protected global::System.Web.UI.WebControls.Button btnAddNotification;
     }
 }

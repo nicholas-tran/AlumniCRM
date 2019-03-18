@@ -1,0 +1,6 @@
+C:\Users\Nick\Desktop\AlumniCRM\Utilities\bin\Debug\Utilities.dll
+C:\Users\Nick\Desktop\AlumniCRM\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Nick\Desktop\AlumniCRM\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\Users\Nick\Desktop\AlumniCRM\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Desktop\AlumniCRM\Utilities\obj\Debug\Utilities.dll
+C:\Users\Nick\Desktop\AlumniCRM\Utilities\obj\Debug\Utilities.pdb

@@ -78,6 +78,8 @@
     <Content Include="Home.aspx" />
     <Content Include="Notes.aspx" />
     <Content Include="Schedule.aspx" />
+    <Content Include="Alumnus.aspx" />
+    <Content Include="Notification.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Navigation.Master.cs">
@@ -123,6 +125,20 @@
     <Compile Include="Schedule.aspx.designer.cs">
       <DependentUpon>Schedule.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Alumnus.aspx.cs">
+      <DependentUpon>Alumnus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alumnus.aspx.designer.cs">
+      <DependentUpon>Alumnus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notification.aspx.cs">
+      <DependentUpon>Notification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notification.aspx.designer.cs">
+      <DependentUpon>Notification.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Navigation.Master" />
@@ -133,6 +149,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{38d3dff2-a5fe-4ff8-9085-9976114e9550}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
