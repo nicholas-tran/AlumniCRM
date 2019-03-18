@@ -59,7 +59,7 @@ h1 {
     bottom: 0;
     width: 100%;
     background-color: #a41e35;
-    color: black;
+    color: white;
     text-align: center;
     border-top: double;
     border-color: #222222;
@@ -77,9 +77,23 @@ h1 {
     text-align: center;
     margin-bottom: 55px;
 }
+
+.analyticBox {
+    border: dotted;
+    border-radius: 100px;
+    border-color: red;
+    min-height: 200px;
+    margin: 1px;
+    padding-top: 50px;
+    font-display: swap;
+}
+
+.analyticNumber {
+    color: #a41e35;
+    font-size: 40px;
+}
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
-
     .col-md-10 {
         margin-top: 0%;
         border-radius: unset;
