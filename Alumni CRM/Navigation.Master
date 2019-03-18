@@ -35,9 +35,16 @@
                     <ul class="nav navbar-nav">
                         <li><a href="Alumni.aspx">Alumni</a></li>
                         <li><a href="Analytics.aspx">Analytics</a></li>
-                        <li><a href="Notes.aspx">Notes</a></li>            
-                        <li><a href="Notification.aspx">Notification</a></li>
-                        <li><a href="Schedule.aspx">Schedule</a></li>            
+                        <li><a href="Notes.aspx">Notes</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Notifications
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Notification.aspx">View Notifications</a></li>
+                                <li><a href="AddNotification.aspx">Add Notifications</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Schedule.aspx">Schedule</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>Log out</a></li>

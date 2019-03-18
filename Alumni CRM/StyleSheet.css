@@ -92,6 +92,11 @@ h1 {
     color: #a41e35;
     font-size: 40px;
 }
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
     .col-md-10 {

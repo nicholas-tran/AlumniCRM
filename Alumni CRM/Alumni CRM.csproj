@@ -80,6 +80,7 @@
     <Content Include="Schedule.aspx" />
     <Content Include="Alumnus.aspx" />
     <Content Include="Notification.aspx" />
+    <Content Include="AddNotification.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Navigation.Master.cs">
@@ -138,6 +139,13 @@
     </Compile>
     <Compile Include="Notification.aspx.designer.cs">
       <DependentUpon>Notification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddNotification.aspx.cs">
+      <DependentUpon>AddNotification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddNotification.aspx.designer.cs">
+      <DependentUpon>AddNotification.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
