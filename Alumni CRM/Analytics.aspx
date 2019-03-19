@@ -6,11 +6,11 @@
     <h1>Analytics Page</h1>
     <br />
     <br />
-    <div class="input-group input-group-md">
-        <input type="text" class="form-control" placeholder="Search">
-        <div class="input-group-btn">
-            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-        </div>
+    <div class="center-block">
+        <asp:Button runat="server" ID="btnMonth" Text="1-Month" CssClass="btn btn-danger"/>
+        <asp:Button runat="server" ID="Button1" Text="3-Month" CssClass="btn btn-danger"/>
+        <asp:Button runat="server" ID="Button2" Text="6-Month" CssClass="btn btn-danger"/>
+        <asp:Button runat="server" ID="Button3" Text="12-Month" CssClass="btn btn-danger"/>
     </div>
     <br />
     <br />
