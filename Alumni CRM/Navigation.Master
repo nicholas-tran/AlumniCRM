@@ -42,6 +42,14 @@
                             </ul>
                         </li>
                         <li><a href="Analytics.aspx">Analytics</a></li>
+                         <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Events
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Events.aspx">View Events</a></li>
+                                <li><a href="AddEvents.aspx">Add Events</a></li>
+                            </ul>
+                        </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown">Notifications
                             <span class="caret"></span></a>
@@ -49,7 +57,7 @@
                                 <li><a href="Notification.aspx">View Notifications</a></li>
                                 <li><a href="AddNotification.aspx">Add Notifications</a></li>
                             </ul>
-                        </li>
+                        </li>                     
                         <li><a href="Schedule.aspx">Schedule</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">

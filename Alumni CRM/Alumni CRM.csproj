@@ -83,6 +83,8 @@
     <Content Include="Notification.aspx" />
     <Content Include="AddNotification.aspx" />
     <Content Include="AddAlumnus.aspx" />
+    <Content Include="Events.aspx" />
+    <Content Include="AddEvents.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.aspx.cs">
@@ -155,6 +157,20 @@
     </Compile>
     <Compile Include="AddAlumnus.aspx.designer.cs">
       <DependentUpon>AddAlumnus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddEvents.aspx.cs">
+      <DependentUpon>AddEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEvents.aspx.designer.cs">
+      <DependentUpon>AddEvents.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -11,8 +11,8 @@
     <div class="container" style="border: solid 2px black; border-radius: 20px; padding: 10px;">
         <div class="row">
             <div class="col-lg-6">
-                <h1>Mary Smith</h1>
-                <h2>TUID: 987654432</h2> 
+                <h1 style="border: 1px solid lightgrey; padding: 20px; border-radius: 50px; background-color: ghostwhite">Mary Smith</h1>
+                <h3>TUID: 987654432</h3> 
                 <img src="Images/BlankUser.png" style="width: 200px; border: 1px black solid" />
                 <br />
                 <br />
@@ -93,7 +93,7 @@
                             Areas of Exptertise:
                         </asp:TableCell>
                         <asp:TableCell>
-                            -----
+                            Digital Art
                         </asp:TableCell>
                     </asp:TableRow>
                     <asp:TableRow>
@@ -106,7 +106,7 @@
                     </asp:TableRow>
                     <asp:TableRow>
                         <asp:TableCell>
-                            LinedIn:
+                            LinkedIn:
                         </asp:TableCell>
                         <asp:TableCell>
                             -----
@@ -142,7 +142,7 @@
                             Website:
                         </asp:TableCell>
                         <asp:TableCell>
-                            -----
+                            www.MarySmith.com
                         </asp:TableCell>
                     </asp:TableRow>
                     <asp:TableRow>
@@ -150,7 +150,7 @@
                             Last Date of Engagement:
                         </asp:TableCell>
                         <asp:TableCell>
-                            -----
+                            3/18/2019
                         </asp:TableCell>
                     </asp:TableRow>
                 </asp:Table>

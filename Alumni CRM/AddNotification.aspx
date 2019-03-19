@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Add Notification</h1>
-    <div class="table-responsive">
+    <div class="table-responsiv notification" style="padding:20px;">
         <asp:Table runat="server" CssClass="table table-bordered">
             <asp:TableRow>
                 <asp:TableCell>TUID: <asp:TextBox runat="server" ID="txtNotificationTUID" CssClass="form-control"></asp:TextBox></asp:TableCell>
@@ -27,6 +27,6 @@
                 </asp:TableCell>
             </asp:TableRow>
         </asp:Table>
-        <asp:Button runat="server" ID="btnCreateNotification" Text="Create Notification" CssClass="btn btn-success"/>
+        <asp:Button runat="server" ID="btnCreateNotification" Text="Create Notification" CssClass="btn btn-success" OnClick="btnCreateNotification_Click"/>
     </div>
 </asp:Content>

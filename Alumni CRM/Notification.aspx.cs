@@ -20,5 +20,10 @@ namespace Alumni_CRM
             gvNotifications.DataBind();
 
         }
+
+        protected void btnAddNotification_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("AddNotification.aspx");
+        }
     }
 }

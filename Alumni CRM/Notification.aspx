@@ -14,6 +14,6 @@
                 <asp:CommandField ButtonType="Button" HeaderText="Edit" ShowEditButton="True"  ControlStyle-CssClass="btn btn-default"/>
             </Columns>
         </asp:GridView>
-        <asp:Button runat="server" ID="btnAddNotification" Text="Add Notification" CssClass="btn btn-success"/>
+        <asp:Button runat="server" ID="btnAddNotification" Text="Add Notification" CssClass="btn btn-success" OnClick="btnAddNotification_Click"/>
     </div>
 </asp:Content>

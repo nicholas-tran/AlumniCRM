@@ -6,7 +6,7 @@
     <h1>Analytics Page</h1>
     <br />
     <br />
-    <div class="center-block">
+    <div class="center-block" >
         <asp:Button runat="server" ID="btnMonth" Text="1-Month" CssClass="btn btn-danger"/>
         <asp:Button runat="server" ID="Button1" Text="3-Month" CssClass="btn btn-danger"/>
         <asp:Button runat="server" ID="Button2" Text="6-Month" CssClass="btn btn-danger"/>
@@ -15,7 +15,7 @@
     <br />
     <br />
 
-    <div class="container" style="">
+    <div class="container notification" style="padding:20px">
         <div class="row">
 
             <div class="col-lg-1"></div>
