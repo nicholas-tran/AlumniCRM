@@ -72,6 +72,7 @@
     <Content Include="Images\Primary_2C_PMS201_0.png" />
     <Content Include="Images\Schedule.PNG" />
     <Content Include="Images\Temple Logo.png" />
+    <Content Include="Login.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
     <Content Include="Alumni.aspx" />
@@ -84,6 +85,13 @@
     <Content Include="AddAlumnus.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Navigation.Master.cs">
       <DependentUpon>Navigation.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
