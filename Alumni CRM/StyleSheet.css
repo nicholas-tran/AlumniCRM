@@ -37,12 +37,17 @@ h1 {
     color: #FFFFFF;
 }
 
-    .nav-crm .nav-item .nav-link {
-        color: white;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        font-size: 1.5rem;
-    }
+.addAlumni {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-crm .nav-item .nav-link {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
 
 /* Set gray background color and 100% height */
 .sidenav {
@@ -106,7 +111,7 @@ h1 {
     width: 80%;
 }
 
-.container{
+.container {
     margin: auto;
     width: 100%;
 }
@@ -146,11 +151,9 @@ td {
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
-    .col-md-10
-
-{
-    margin-top: 0%;
-    border-radius: unset;
-    min-height: 600px;
-}
+    .col-md-10 {
+        margin-top: 0%;
+        border-radius: unset;
+        min-height: 600px;
+    }
 }
