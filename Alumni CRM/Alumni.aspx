@@ -14,7 +14,7 @@
     </div>
     <br />
     <div class="table-responsive text-center">
-        <asp:GridView ID="gvAlumni" runat="server" AutoGenerateColumns="False" CellPadding="8" ForeColor="#333333" GridLines="None" Width="100%"  CssClass="table table-bordered">
+        <asp:GridView ID="gvAlumni" runat="server" AutoGenerateColumns="False" CellPadding="8" ForeColor="#333333" GridLines="None" Width="100%"  CssClass="table table-bordered" OnRowCancelingEdit="gvAlumni_RowCancelingEdit" OnRowDeleting="gvAlumni_RowDeleting" OnRowEditing="gvAlumni_RowEditing">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
                 <asp:TemplateField HeaderText="Download">
@@ -27,7 +27,7 @@
                 <asp:BoundField DataField="TUID" HeaderText="TUID" />
                 <asp:BoundField DataField="GraduationDate" HeaderText="Graduation Date" />
                 <asp:BoundField DataField="LastInteractionDate" HeaderText="Last Interaction" />
-                <asp:CommandField ButtonType="Button" HeaderText="Edit" ShowEditButton="True"  ControlStyle-CssClass="btn btn-default"/>
+                <asp:CommandField ButtonType="Button" HeaderText="Edit" ShowEditButton="True"  ControlStyle-CssClass="btn btn-default" ShowDeleteButton="True"/>
                 <asp:TemplateField>
                     <ItemTemplate>
                         <asp:Button runat="server" ID="btnViewAlumnus" Text="View" CssClass="btn btn-success" OnClick="btnView_Click"/>
