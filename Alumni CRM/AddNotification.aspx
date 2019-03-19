@@ -23,7 +23,7 @@
             </asp:TableRow>
             <asp:TableRow>
                 <asp:TableCell>Date: 
-                    <asp:Calendar ID="cldNotification" runat="server"></asp:Calendar>
+                    <asp:Calendar ID="cldNotification" runat="server" style="margin: auto; width: 40%"></asp:Calendar>
                 </asp:TableCell>
             </asp:TableRow>
         </asp:Table>

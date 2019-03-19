@@ -13,7 +13,7 @@
         </div>
     </div>
     <br />
-    <div class="table-responsive" style="text-align:left;">
+    <div class="table-responsive text-center">
         <asp:GridView ID="gvAlumni" runat="server" AutoGenerateColumns="False" CellPadding="8" ForeColor="#333333" GridLines="None" Width="100%"  CssClass="table table-bordered">
             <AlternatingRowStyle BackColor="White" />
             <Columns>

@@ -18,7 +18,7 @@ namespace Alumni_CRM
             Alumnus alumnus2 = new Alumnus("Jane", "Doe", "987654322", DateTime.Now, DateTime.Now);
             Alumnus alumnus3 = new Alumnus("Bob", "Smith", "987654332", DateTime.Now, DateTime.Now);
             Alumnus alumnus4 = new Alumnus("Mary", "Smith", "987654432", DateTime.Now, DateTime.Now);
-            for (int i = 0; i < 10; i++){
+            for (int i = 0; i < 3; i++){
                 alumni.Add(alumnus1);
                 alumni.Add(alumnus2);
                 alumni.Add(alumnus3);

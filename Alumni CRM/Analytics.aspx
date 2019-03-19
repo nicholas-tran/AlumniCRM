@@ -6,13 +6,16 @@
     <h1>Analytics Page</h1>
     <br />
     <br />
-    <asp:Label runat="server" ID="lblAnalytics">Analytics</asp:Label>
-    <asp:TextBox runat="server" ID="txtAnalytics"></asp:TextBox>
-    <asp:Button runat="server" ID="btnSubmit" Text="Submit" CssClass="btn-danger" />
+    <div class="input-group input-group-md">
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+        </div>
+    </div>
     <br />
     <br />
 
-    <div class="container-fluid center-block">
+    <div class="container" style="">
         <div class="row">
 
             <div class="col-lg-1"></div>

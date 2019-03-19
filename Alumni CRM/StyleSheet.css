@@ -53,6 +53,7 @@ h1 {
 
 /* Set black background color, white text and some padding */
 .footer {
+    display: block;
     position: fixed;
     padding-top: 10px;
     left: 0;
@@ -82,10 +83,10 @@ h1 {
     border: dotted;
     border-radius: 100px;
     border-color: red;
-    min-height: 200px;
-    margin: 1px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
     padding-top: 50px;
-    font-display: swap;
 }
 
 .analyticNumber {
@@ -93,15 +94,47 @@ h1 {
     font-size: 40px;
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
     display: block;
+}
+
+.notification {
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: #a41e35;
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
-    .col-md-10 {
-        margin-top: 0%;
-        border-radius: unset;
-        min-height: 600px;
-    }
+    .col-md-10
+
+{
+    margin-top: 0%;
+    border-radius: unset;
+    min-height: 600px;
+}
 }

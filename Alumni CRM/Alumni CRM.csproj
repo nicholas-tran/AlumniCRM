@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\BlankUser.png" />
     <Content Include="Images\DiamondPattern.png" />
     <Content Include="Images\Primary_2C_PMS201_0.png" />
     <Content Include="Images\Schedule.PNG" />
@@ -76,7 +77,6 @@
     <Content Include="Alumni.aspx" />
     <Content Include="Analytics.aspx" />
     <Content Include="Home.aspx" />
-    <Content Include="Notes.aspx" />
     <Content Include="Schedule.aspx" />
     <Content Include="Alumnus.aspx" />
     <Content Include="Notification.aspx" />
@@ -111,13 +111,6 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Notes.aspx.cs">
-      <DependentUpon>Notes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Notes.aspx.designer.cs">
-      <DependentUpon>Notes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Schedule.aspx.cs">
       <DependentUpon>Schedule.aspx</DependentUpon>
