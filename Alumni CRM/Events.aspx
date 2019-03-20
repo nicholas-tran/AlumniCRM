@@ -10,7 +10,11 @@
                 <asp:BoundField DataField="EventDate" HeaderText="Date" />
                 <asp:BoundField DataField="EventType" HeaderText="Type" />
                 <asp:BoundField DataField="EventDescription" HeaderText="Description" />
-                <asp:CommandField ButtonType="Button" HeaderText="Edit" ShowEditButton="True" ControlStyle-CssClass="btn btn-default" />
+                <asp:TemplateField>
+                    <ItemTemplate>
+                        <asp:Button runat="server" ID="btnViewEvent" Text="View" CssClass="btn btn-success"/>
+                    </ItemTemplate>
+                </asp:TemplateField>
             </Columns>
         </asp:GridView>
         <asp:Button runat="server" ID="btnAddEvent" Text="Add Event" CssClass="btn btn-success" OnClick="btnAddEvent_Click" />

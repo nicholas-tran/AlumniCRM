@@ -20,7 +20,8 @@
                     <h2>Notes</h2>
                 <asp:TextBox ID="textarea" mode="multiline" runat="server" Height="150px" Width="350px" Enabled="False" TextMode="MultiLine" Style="resize: none;" />
                 </div> <br />
-                <asp:Button runat="server" ID="btnEdit" Text="Edit" CssClass="btn btn-danger" />
+                <asp:Button runat="server" ID="btnEdit" Text="Edit" CssClass="btn btn-default" />
+                <asp:Button runat="server" ID="btnDelete" Text="Delete" CssClass="btn btn-danger"/>
             </div>
             <div class="col-lg-6">
                 <asp:Table runat="server" ID="tblAlumniInfo">

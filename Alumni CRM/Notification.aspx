@@ -11,7 +11,11 @@
                 <asp:BoundField DataField="NotificationType" HeaderText="Type"/>
                 <asp:BoundField DataField="NotificationDescription" HeaderText="Description"/>
                 <asp:BoundField DataField="TUID" HeaderText="TUID"/>
-                <asp:CommandField ButtonType="Button" HeaderText="Edit" ShowEditButton="True"  ControlStyle-CssClass="btn btn-default"/>
+                <asp:TemplateField>
+                    <ItemTemplate>
+                        <asp:Button runat="server" ID="btnViewNotification" Text="View" CssClass="btn btn-success"/>
+                    </ItemTemplate>
+                </asp:TemplateField>
             </Columns>
         </asp:GridView>
         <asp:Button runat="server" ID="btnAddNotification" Text="Add Notification" CssClass="btn btn-success" OnClick="btnAddNotification_Click"/>
