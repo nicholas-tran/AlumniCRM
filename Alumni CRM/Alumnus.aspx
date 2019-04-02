@@ -8,23 +8,25 @@
     <asp:Label runat="server" ID="lblAnalytics" CssClass="h1">Alumni Page</asp:Label>
     <br />
     <br />
-    <div class="container" style="border: solid 2px black; border-radius: 20px; padding: 10px;">
+    <div class="container center-block" style="border: solid 2px black; border-radius: 20px; padding: 10px;">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <h1 style="border: 1px solid lightgrey; padding: 20px; border-radius: 50px; background-color: ghostwhite">Mary Smith</h1>
-                <h3>TUID: 987654432</h3> 
+                <h3>TUID: 987654432</h3>
                 <img src="Images/BlankUser.png" style="width: 200px; border: 1px black solid" />
                 <br />
                 <br />
                 <div class="auto-style1">
                     <h2>Notes</h2>
-                <asp:TextBox ID="textarea" mode="multiline" runat="server" Height="150px" Width="350px" Enabled="False" TextMode="MultiLine" Style="resize: none;" />
-                </div> <br />
+                    <asp:TextBox ID="textarea" mode="multiline" runat="server" Height="150px" Width="350px" Enabled="False" TextMode="MultiLine" Style="resize: none;" />
+                </div>
+                <br />
                 <asp:Button runat="server" ID="btnEdit" Text="Edit" CssClass="btn btn-default" />
-                <asp:Button runat="server" ID="btnDelete" Text="Delete" CssClass="btn btn-danger"/>
+                <asp:Button runat="server" ID="btnDelete" Text="Delete" CssClass="btn btn-danger" />
             </div>
-            <div class="col-lg-6">
-                <asp:Table runat="server" ID="tblAlumniInfo">
+            <div class="col-lg-4">
+                <h3>Information</h3>    
+                <asp:Table runat="server" ID="tblAlumniInfo" CssClass="tableContent">
                     <asp:TableRow>
                         <asp:TableCell>
                             Title:
@@ -124,22 +126,6 @@
                     </asp:TableRow>
                     <asp:TableRow>
                         <asp:TableCell>
-                            Bio:
-                        </asp:TableCell>
-                        <asp:TableCell>
-                            -----
-                        </asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow>
-                        <asp:TableCell>
-                            Application:
-                        </asp:TableCell>
-                        <asp:TableCell>
-                            -----
-                        </asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow>
-                        <asp:TableCell>
                             Website:
                         </asp:TableCell>
                         <asp:TableCell>
@@ -152,6 +138,59 @@
                         </asp:TableCell>
                         <asp:TableCell>
                             3/18/2019
+                        </asp:TableCell>
+                    </asp:TableRow>
+                </asp:Table>
+            </div>
+            <div class="col-lg-4">
+                <h3>Documents</h3>
+                <asp:Table runat="server" ID="tblDocuments" CssClass="tableContent"> 
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            Cover Letter
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            -----
+                        </asp:TableCell>
+                    </asp:TableRow>
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            Resume
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            -----
+                        </asp:TableCell>
+                    </asp:TableRow>
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            CV
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            -----
+                        </asp:TableCell>
+                    </asp:TableRow>
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            Application
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            -----
+                        </asp:TableCell>
+                    </asp:TableRow>
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            Bio
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            -----
+                        </asp:TableCell>
+                    </asp:TableRow>
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            Article
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            -----
                         </asp:TableCell>
                     </asp:TableRow>
                 </asp:Table>

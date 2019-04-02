@@ -145,8 +145,15 @@ th {
 }
 
 td {
-    border: 1px solid black;
+    border: 1px solid white;
+    border-bottom: 1px solid grey;
     padding: 10px;
+}
+
+.tableContent { 
+    border: 2px solid white;
+    margin: auto;
+    width: 100%;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */

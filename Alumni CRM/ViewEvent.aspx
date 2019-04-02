@@ -8,9 +8,28 @@
     <br />
     <div class="container" style="border: solid 2px black; border-radius: 20px; padding: 10px;">
         <div class="row">
-            <div class="col-md-12">
-                Event for Alumnus and clients to meet up and chat about Temple University. <br />
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <asp:Table runat="server" ID="tblEventInfo" CssClass="tableContent">
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            Description:
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            Description for Temple Alumni Event
+                        </asp:TableCell>
+                    </asp:TableRow>
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            Date:
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            10:00 A.M. to 12:00 P.M.
+                        </asp:TableCell>
+                    </asp:TableRow>
+                </asp:Table>
             </div>
+            <div class="col-md-4"></div>
         </div>
     </div>
 </asp:Content>
