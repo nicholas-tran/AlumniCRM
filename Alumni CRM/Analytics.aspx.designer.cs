@@ -13,40 +13,22 @@ namespace Alumni_CRM {
     public partial class WebForm2 {
         
         /// <summary>
-        /// btnMonth control.
+        /// txtFromDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMonth;
+        protected global::System.Web.UI.WebControls.TextBox txtFromDate;
         
         /// <summary>
-        /// Button1 control.
+        /// txToDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
-        
-        /// <summary>
-        /// Button3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.TextBox txToDate;
         
         /// <summary>
         /// lblEventRegistration control.
@@ -65,60 +47,6 @@ namespace Alumni_CRM {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEventAttendance;
-        
-        /// <summary>
-        /// lblTPNMeetings control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTPNMeetings;
-        
-        /// <summary>
-        /// lblTPNMembers control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTPNMembers;
-        
-        /// <summary>
-        /// lblTPNAttendance control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTPNAttendance;
-        
-        /// <summary>
-        /// lblOwlNetworkSubscribers control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOwlNetworkSubscribers;
-        
-        /// <summary>
-        /// lblOwnNetworkActivity control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOwnNetworkActivity;
-        
-        /// <summary>
-        /// lblOnlineNetworkingCommunities control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOnlineNetworkingCommunities;
         
         /// <summary>
         /// lblMentors control.
@@ -146,42 +74,6 @@ namespace Alumni_CRM {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblPartnersIntroduced;
-        
-        /// <summary>
-        /// lblTPNCornerClicks control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTPNCornerClicks;
-        
-        /// <summary>
-        /// lblOwlNetworkOpenRate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOwlNetworkOpenRate;
-        
-        /// <summary>
-        /// lblOwlNetworkClickRate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOwlNetworkClickRate;
-        
-        /// <summary>
-        /// lblOwlNetworkConversionRate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOwlNetworkConversionRate;
         
         /// <summary>
         /// lblAlumniEmails control.

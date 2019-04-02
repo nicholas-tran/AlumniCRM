@@ -152,7 +152,7 @@ td {
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
     .col-md-10 {
-        margin-top: 0%;
+        margin-top: 0;
         border-radius: unset;
         min-height: 600px;
     }

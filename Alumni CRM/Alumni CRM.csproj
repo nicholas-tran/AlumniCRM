@@ -85,6 +85,7 @@
     <Content Include="AddAlumnus.aspx" />
     <Content Include="Events.aspx" />
     <Content Include="AddEvents.aspx" />
+    <Content Include="ViewEvent.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.aspx.cs">
@@ -171,6 +172,13 @@
     </Compile>
     <Compile Include="AddEvents.aspx.designer.cs">
       <DependentUpon>AddEvents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewEvent.aspx.cs">
+      <DependentUpon>ViewEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewEvent.aspx.designer.cs">
+      <DependentUpon>ViewEvent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
