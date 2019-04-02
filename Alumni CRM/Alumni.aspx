@@ -29,7 +29,7 @@
                 <asp:BoundField DataField="LastInteractionDate" HeaderText="Last Interaction" />
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:Button runat="server" ID="btnViewAlumnus" Text="View" CssClass="btn btn-success" OnClick="btnViewAlumnus_Click"/>
+                        <asp:Button runat="server" ID="btnViewAlumnus" Text="View" CssClass="btn btn-danger" OnClick="btnViewAlumnus_Click"/>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>
@@ -44,5 +44,6 @@
             <SortedDescendingHeaderStyle BackColor="#820000" />
         </asp:GridView>
     </div>
-    <asp:Button runat="server" ID="btnDownload" Text="Download" CssClass="btn btn-success"/>
+    <asp:Button runat="server" ID="Button1" Text="Select All" CssClass="btn btn-danger"/>
+    <asp:Button runat="server" ID="btnDownload" Text="Download" CssClass="btn btn-danger"/>
 </asp:Content>

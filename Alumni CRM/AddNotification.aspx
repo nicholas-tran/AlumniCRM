@@ -11,10 +11,12 @@
             </asp:TableRow>
             <asp:TableRow>
                 <asp:TableCell>Notification Type
-                    <asp:DropDownList runat="server" ID="ddlNotificationType" CssClass="form-control">
-                        <asp:ListItem>Meeting</asp:ListItem>
-                        <asp:ListItem>Guidance</asp:ListItem>
-                        <asp:ListItem>Event</asp:ListItem>
+                    <asp:DropDownList runat="server" ID="ddlNotificationType" CssClass="form-control">                        
+                        <asp:ListItem>Event</asp:ListItem>                         
+                        <asp:ListItem>Guidance</asp:ListItem>     
+                        <asp:ListItem>Meeting</asp:ListItem>           
+                        <asp:ListItem>Phone Call</asp:ListItem>
+                        <asp:ListItem>Email</asp:ListItem>
                     </asp:DropDownList></asp:TableCell>
             </asp:TableRow>
             <asp:TableRow>
@@ -27,6 +29,6 @@
                 </asp:TableCell>
             </asp:TableRow>
         </asp:Table>
-        <asp:Button runat="server" ID="btnCreateNotification" Text="Create Notification" CssClass="btn btn-success" OnClick="btnCreateNotification_Click"/>
+        <asp:Button runat="server" ID="btnCreateNotification" Text="Create Notification" CssClass="btn btn-danger" OnClick="btnCreateNotification_Click"/>
     </div>
 </asp:Content>

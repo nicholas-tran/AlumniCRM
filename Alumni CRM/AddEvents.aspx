@@ -26,6 +26,6 @@
                 </asp:TableCell>
             </asp:TableRow>
         </asp:Table>
-        <asp:Button runat="server" ID="btnCreateEvent" Text="Create Event" CssClass="btn btn-success"/>
+        <asp:Button runat="server" ID="btnCreateEvent" Text="Create Event" CssClass="btn btn-danger"/>
     </div>
 </asp:Content>
