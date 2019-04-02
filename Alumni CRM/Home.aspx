@@ -3,13 +3,25 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>Home</h1>
+    
+    
+     <ul class="pager">
+    <li><asp:Button ID="btnPrevious" class="btn btn-info" runat="server" OnClick="Button1_Click" Text="Previous" />
+        </li>
+         <asp:Label Style= "font-size:15px;" ID="lblDate" runat="server" Text="To Day"></asp:Label>
+         
+    <li><asp:Button ID="btnNext" runat="server" class="btn btn-info" Text="Next" OnClick="btnNext_Click" /></li>
+        
+  </ul>
+   
 
-    <div class="container center-block notification">
+    
+ <div class="container center-block notification">
         <div class="text-center" style="margin: auto; width: 60%; padding-bottom: 20px;">
-            <h3 style="text-align: left">3/19/19</h3>
+            <div class="display">
+            <h3 style="text-align: left"></h3>
             <div class="table-responsive">
-                <asp:Repeater runat="server" ID="rpNotification1">
+                <asp:Repeater runat="server" ID="rpNotification1" OnItemCommand="rpNotification1_ItemCommand">
                     <HeaderTemplate>
                         <table>
                             <thead>
@@ -38,7 +50,7 @@
                     </FooterTemplate>
                 </asp:Repeater>
             </div>
-            <h3 style="text-align: left">3/20/19</h3>
+            <h3 style="text-align: left"></h3>
             <div class="table-responsive">
                 <asp:Repeater runat="server" ID="rpNotification2">
                     <HeaderTemplate>
@@ -69,7 +81,8 @@
                     </FooterTemplate>
                 </asp:Repeater>
             </div>
-            <h3 style="text-align: left">3/21/19</h3>
+                </div>
+            <h3 style="text-align: left"></h3>
             <div class="table-responsive">
                 <asp:Repeater runat="server" ID="rpNotification3">
                     <HeaderTemplate>
@@ -100,7 +113,7 @@
                     </FooterTemplate>
                 </asp:Repeater>
             </div>
-            <h3 style="text-align: left">3/22/19</h3>
+            <h3 style="text-align: left"></h3>
             <div class="table-responsive">
                 <asp:Repeater runat="server" ID="rpNotification4">
                     <HeaderTemplate>
@@ -125,12 +138,7 @@
                             <td><asp:Button runat="server" ID="btnViewNotification" Text="View Notification" OnClick="btnViewNotification_Click" CssClass="btn btn-default"/></td>
                         </tr>
                     </ItemTemplate>
-                    <FooterTemplate>
-                        </tbody>
-    </table>
-                    </FooterTemplate>
-                </asp:Repeater>
-            </div>
-        </div>
-    </div>
-</asp:Content>
+                   
+                        </asp:Repeater>
+                      </div>
+            </asp:Content>

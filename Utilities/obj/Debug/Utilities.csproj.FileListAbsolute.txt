@@ -10,3 +10,9 @@ C:\Users\ShiroLycoris\source\repos\AlumniCRM\Utilities\obj\Debug\Utilities.cspro
 C:\Users\ShiroLycoris\source\repos\AlumniCRM\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
 C:\Users\ShiroLycoris\source\repos\AlumniCRM\Utilities\obj\Debug\Utilities.dll
 C:\Users\ShiroLycoris\source\repos\AlumniCRM\Utilities\obj\Debug\Utilities.pdb
+C:\Users\Ali\Desktop\AlumniCRM\Utilities\bin\Debug\Utilities.dll
+C:\Users\Ali\Desktop\AlumniCRM\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Ali\Desktop\AlumniCRM\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\Users\Ali\Desktop\AlumniCRM\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Ali\Desktop\AlumniCRM\Utilities\obj\Debug\Utilities.dll
+C:\Users\Ali\Desktop\AlumniCRM\Utilities\obj\Debug\Utilities.pdb
