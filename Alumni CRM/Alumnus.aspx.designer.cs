@@ -22,6 +22,24 @@ namespace Alumni_CRM {
         protected global::System.Web.UI.WebControls.Label lblAnalytics;
         
         /// <summary>
+        /// tblAlumniInfo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table tblAlumniInfo;
+        
+        /// <summary>
+        /// tblDocuments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table tblDocuments;
+        
+        /// <summary>
         /// textarea control.
         /// </summary>
         /// <remarks>
@@ -47,23 +65,5 @@ namespace Alumni_CRM {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnDelete;
-        
-        /// <summary>
-        /// tblAlumniInfo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Table tblAlumniInfo;
-        
-        /// <summary>
-        /// tblDocuments control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Table tblDocuments;
     }
 }

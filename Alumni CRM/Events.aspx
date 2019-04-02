@@ -12,7 +12,7 @@
                 <asp:BoundField DataField="EventDescription" HeaderText="Description" />
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:Button runat="server" ID="btnViewEvent" Text="View" CssClass="btn btn-success"/>
+                        <asp:Button runat="server" ID="btnViewEvent" Text="View" CssClass="btn btn-success" OnClick="btnViewEvent_click"/>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>

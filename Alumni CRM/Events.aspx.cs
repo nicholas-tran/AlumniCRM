@@ -12,17 +12,25 @@ namespace Alumni_CRM
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            List<Events> newEvent = new List<Events>();
-            Events event1 = new Events(DateTime.Now, "Event", "New event description.");
-            newEvent.Add(event1);
-            gvEvents.DataSource = newEvent;
+            if (!IsPostBack)
+            {
+                List<Events> newEvent = new List<Events>();
+                Events event1 = new Events(DateTime.Now, "Event", "New event description.");
+                newEvent.Add(event1);
+                gvEvents.DataSource = newEvent;
 
-            gvEvents.DataBind();
+                gvEvents.DataBind();
+            }
         }
 
         protected void btnAddEvent_Click(object sender, EventArgs e)
         {
             Server.Transfer("AddEvents.aspx");
+        }
+
+        protected void btnViewEvent_click(object sender, EventArgs e)
+        {
+            Response.Redirect("ViewEvent.aspx");
         }
     }
 }

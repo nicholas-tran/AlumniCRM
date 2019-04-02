@@ -11,18 +11,11 @@
     <div class="container center-block" style="border: solid 2px black; border-radius: 20px; padding: 10px;">
         <div class="row">
             <div class="col-lg-4">
-                <h1 style="border: 1px solid lightgrey; padding: 20px; border-radius: 50px; background-color: ghostwhite">Mary Smith</h1>
+                <h1 style="border: 1px solid lightgrey; padding: 20px; border-radius: 50px; background-color: ghostwhite; margin-top: 30%;">Mary Smith</h1>
                 <h3>TUID: 987654432</h3>
                 <img src="Images/BlankUser.png" style="width: 200px; border: 1px black solid" />
                 <br />
                 <br />
-                <div class="auto-style1">
-                    <h2>Notes</h2>
-                    <asp:TextBox ID="textarea" mode="multiline" runat="server" Height="150px" Width="350px" Enabled="False" TextMode="MultiLine" Style="resize: none;" />
-                </div>
-                <br />
-                <asp:Button runat="server" ID="btnEdit" Text="Edit" CssClass="btn btn-default" />
-                <asp:Button runat="server" ID="btnDelete" Text="Delete" CssClass="btn btn-danger" />
             </div>
             <div class="col-lg-4">
                 <h3>Information</h3>    
@@ -194,6 +187,13 @@
                         </asp:TableCell>
                     </asp:TableRow>
                 </asp:Table>
+                 <div class="auto-style1">
+                    <h3>Notes</h3>
+                    <asp:TextBox ID="textarea" mode="multiline" runat="server" Height="150px" Width="350px" Enabled="False" TextMode="MultiLine" Style="resize: none;" />
+                </div>
+                <br />
+                <asp:Button runat="server" ID="btnEdit" Text="Edit" CssClass="btn btn-default" />
+                <asp:Button runat="server" ID="btnDelete" Text="Delete" CssClass="btn btn-danger" />
             </div>
         </div>
     </div>
