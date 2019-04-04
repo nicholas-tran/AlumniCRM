@@ -92,6 +92,7 @@ h1 {
     height: 200px;
     margin: auto;
     padding-top: 50px;
+    display: block
 }
 
 .analyticNumber {
@@ -108,7 +109,7 @@ h1 {
     border-radius: 30px;
     padding: 10px;
     margin: auto;
-    width: 80%;
+    width: 100%;
 }
 
 .container {

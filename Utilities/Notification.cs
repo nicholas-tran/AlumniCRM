@@ -11,6 +11,8 @@ namespace Utilities
         public DateTime NotificationDate { get; set; }
         public string TUID { get; set; }
         public string NotificationType { get; set; }
+        public string FirstName { get ; set; }
+        public string LastName { get; set; }
         public string NotificationDescription { get; set; }
 
         public Notification()
@@ -18,12 +20,14 @@ namespace Utilities
 
         }
 
-        public Notification(DateTime notificationDate, string tuid, string notificationType, string notificationDescription)
+        public Notification(DateTime notificationDate, string tuid, string notificationType, string notificationDescription, string firstName, string lastName)
         {
             NotificationDate = notificationDate;
             TUID = tuid;
             NotificationType = notificationType;
             NotificationDescription = notificationDescription;
+            FirstName = firstName;
+            LastName = lastName;
         }
     }
 }
