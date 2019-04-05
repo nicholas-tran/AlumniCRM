@@ -13,7 +13,7 @@ namespace Alumni_CRM
         protected void Page_Load(object sender, EventArgs e)
         {
             List<Notification> notifications = new List<Notification>();
-            Notification notification1 = new Notification(DateTime.Now, "987654321", "Meeting", "First time meeting", "Mary", "Smith");
+            Notification notification1 = new Notification(DateTime.Now.ToString("MM/dd/yyyy"), "987654321", "Meeting", "First time meeting", "Mary", "Smith");
             notifications.Add(notification1);
             gvNotifications.DataSource = notifications;
 

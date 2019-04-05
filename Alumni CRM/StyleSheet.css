@@ -104,6 +104,14 @@ h1 {
     font-size: 40px;
 }
 
+.alumniName {
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: ghostwhite;
+    margin-top: 30%;
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
 }
@@ -169,5 +177,9 @@ td {
         margin-top: 0;
         border-radius: unset;
         min-height: 600px;
+    }
+
+    .alumniName{
+        margin-top: 0;
     }
 }

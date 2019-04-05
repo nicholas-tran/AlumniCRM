@@ -80,6 +80,6 @@
                 </asp:TableCell>
             </asp:TableRow>
         </asp:Table>--%> <br />
-        <asp:Button runat="server" ID="btnCreateAlumni" Text="Add Alumni" CssClass="btn btn-success" />
+        <asp:Button runat="server" ID="btnCreateAlumni" Text="Add Alumni" CssClass="btn btn-danger" />
     </div>
 </asp:Content>

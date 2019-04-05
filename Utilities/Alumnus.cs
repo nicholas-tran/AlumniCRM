@@ -11,8 +11,8 @@ namespace Utilities
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string TUID { get; set; }
-        public DateTime GraduationDate { get; set; }
-        public DateTime LastInteractionDate { get; set; }
+        public string GraduationDate { get; set; }
+        public string LastInteractionDate { get; set; }
 
 
         //Default constructor
@@ -22,11 +22,13 @@ namespace Utilities
         }
 
         //Parameterized constructor
-        public Alumnus(string firstName, string lastName, string tuid, DateTime graduationDate, DateTime interactionDate)
+        public Alumnus(string firstName, string lastName, string tuid, string graduationDate, string interactionDate)
         {
             FirstName = firstName;
             LastName = lastName;
             TUID = tuid;
+            GraduationDate = graduationDate;
+            LastInteractionDate = interactionDate;
         }
     }
 }

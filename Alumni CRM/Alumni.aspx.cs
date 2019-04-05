@@ -18,10 +18,10 @@ namespace Alumni_CRM
 
                 //Temporary data for presentation to client
                 List<Alumnus> alumni = new List<Alumnus>();
-                Alumnus alumnus1 = new Alumnus("John", "Doe", "987654321", DateTime.Now, DateTime.Now);
-                Alumnus alumnus2 = new Alumnus("Jane", "Doe", "987654322", DateTime.Now, DateTime.Now);
-                Alumnus alumnus3 = new Alumnus("Bob", "Smith", "987654332", DateTime.Now, DateTime.Now);
-                Alumnus alumnus4 = new Alumnus("Mary", "Smith", "987654432", DateTime.Now, DateTime.Now);
+                Alumnus alumnus1 = new Alumnus("John", "Doe", "987654321", DateTime.Now.AddMonths(8).ToString("MM/dd/yyyy"), DateTime.Now.AddDays(-30).ToString("MM/dd/yyyy"));
+                Alumnus alumnus2 = new Alumnus("Jane", "Doe", "987654322", DateTime.Now.AddMonths(8).ToString("MM/dd/yyyy"), DateTime.Now.AddDays(-20).ToString("MM/dd/yyyy"));
+                Alumnus alumnus3 = new Alumnus("Bob", "Smith", "987654332", DateTime.Now.AddMonths(8).ToString("MM/dd/yyyy"), DateTime.Now.AddDays(-10).ToString("MM/dd/yyyy"));
+                Alumnus alumnus4 = new Alumnus("Mary", "Smith", "987654432", DateTime.Now.AddMonths(8).ToString("MM/dd/yyyy"), DateTime.Now.AddDays(-5).ToString("MM/dd/yyyy"));
                 for (int i = 0; i < 3; i++)
                 {
                     alumni.Add(alumnus1);

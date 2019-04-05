@@ -13,11 +13,11 @@
                 <asp:BoundField DataField="TUID" HeaderText="TUID"/>
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:Button runat="server" ID="btnViewNotification" Text="View" CssClass="btn btn-success"/>
+                        <asp:Button runat="server" ID="btnViewNotification" Text="View" CssClass="btn btn-danger"/>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>
         </asp:GridView>
-        <asp:Button runat="server" ID="btnAddNotification" Text="Add Notification" CssClass="btn btn-success" OnClick="btnAddNotification_Click"/>
+        <asp:Button runat="server" ID="btnAddNotification" Text="Add Notification" CssClass="btn btn-danger" OnClick="btnAddNotification_Click"/>
     </div>
 </asp:Content>

@@ -33,7 +33,8 @@
                             Location:
                         </asp:TableCell>
                         <asp:TableCell>
-                            Liacouras Walk
+                            Temple University Science Education and Research Center <br />
+                            1925 N 12th St, Philadelphia, PA 19122
                         </asp:TableCell>
                     </asp:TableRow>
                 </asp:Table>

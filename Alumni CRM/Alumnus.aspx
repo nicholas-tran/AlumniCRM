@@ -11,7 +11,7 @@
     <div class="container center-block" style="border: solid 2px black; border-radius: 20px; padding: 10px;">
         <div class="row">
             <div class="col-lg-4">
-                <h1 style="border: 1px solid lightgrey; padding: 20px; border-radius: 50px; background-color: ghostwhite; margin-top: 30%;">Mary Smith</h1>
+                <h1 class="alumniName">Mary Smith</h1>
                 <h3>TUID: 987654432</h3>
                 <img src="Images/BlankUser.png" style="width: 200px; border: 1px black solid" />
                 <br />

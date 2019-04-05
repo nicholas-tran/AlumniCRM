@@ -8,7 +8,7 @@ namespace Utilities
 {
     public class Notification
     {
-        public DateTime NotificationDate { get; set; }
+        public string NotificationDate { get; set; }
         public string TUID { get; set; }
         public string NotificationType { get; set; }
         public string FirstName { get ; set; }
@@ -20,7 +20,7 @@ namespace Utilities
 
         }
 
-        public Notification(DateTime notificationDate, string tuid, string notificationType, string notificationDescription, string firstName, string lastName)
+        public Notification(string notificationDate, string tuid, string notificationType, string notificationDescription, string firstName, string lastName)
         {
             NotificationDate = notificationDate;
             TUID = tuid;

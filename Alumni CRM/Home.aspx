@@ -20,7 +20,7 @@
     <div class="container center-block notification">
         <div class="text-center" style="margin: auto; padding-bottom: 20px;">
             <div class="display container">
-                <div class="table-responsive" style="text-align: left;">
+                <div class="table-responsive">
                     <asp:Repeater runat="server" ID="rpNotification1" OnItemCommand="rpNotification1_ItemCommand">
                         <HeaderTemplate>
                             <table class="table">
@@ -46,7 +46,7 @@
                                 <td><%# Eval("LastName")%></td>
                                 <td><%# Eval("TUID")%></td>
                                 <td>
-                                    <asp:Button runat="server" ID="btnViewNotification" Text="View Notification" OnClick="btnViewNotification_Click" CssClass="btn btn-default" /></td>
+                                    <asp:Button runat="server" ID="btnViewNotification" Text="View Notification" OnClick="btnViewNotification_Click" CssClass="btn btn-danger" /></td>
                             </tr>
                         </ItemTemplate>
                         <FooterTemplate>
@@ -55,7 +55,6 @@
                         </FooterTemplate>
                     </asp:Repeater>
                 </div>
-                <h3 style="text-align: left"></h3>
                 <div class="table-responsive">
                     <asp:Repeater runat="server" ID="rpNotification2">
                         <HeaderTemplate>
@@ -82,7 +81,7 @@
                                 <td><%# Eval("LastName")%></td>
                                 <td><%# Eval("TUID")%></td>
                                 <td>
-                                    <asp:Button runat="server" ID="btnViewNotification" Text="View Notification" OnClick="btnViewNotification_Click" CssClass="btn btn-default" /></td>
+                                    <asp:Button runat="server" ID="btnViewNotification" Text="View Notification" OnClick="btnViewNotification_Click" CssClass="btn btn-danger" /></td>
                             </tr>
                         </ItemTemplate>
                         <FooterTemplate>
@@ -119,7 +118,7 @@
                             <td><%# Eval("LastName")%></td>
                             <td><%# Eval("TUID")%></td>
                             <td>
-                                <asp:Button runat="server" ID="btnViewNotification" Text="View Notification" OnClick="btnViewNotification_Click" CssClass="btn btn-default" /></td>
+                                <asp:Button runat="server" ID="btnViewNotification" Text="View Notification" OnClick="btnViewNotification_Click" CssClass="btn btn-danger" /></td>
                         </tr>
                     </ItemTemplate>
                     <FooterTemplate>
@@ -155,7 +154,7 @@
                             <td><%# Eval("LastName")%></td>
                             <td><%# Eval("TUID")%></td>
                             <td>
-                                <asp:Button runat="server" ID="btnViewNotification" Text="View Notification" OnClick="btnViewNotification_Click" CssClass="btn btn-default" /></td>
+                                <asp:Button runat="server" ID="btnViewNotification" Text="View Notification" OnClick="btnViewNotification_Click" CssClass="btn btn-danger" /></td>
                         </tr>
                     </ItemTemplate>
                 </asp:Repeater>

@@ -18,8 +18,8 @@ namespace Alumni_CRM
                 List<Notification> notifications1 = new List<Notification>();
                 List<Notification> notifications2 = new List<Notification>();
                
-                Notification notification1 = new Notification(DateTime.Now, "987654321", "Meeting", "First time meeting", "Mary", "Smith");
-                Notification notification2 = new Notification(DateTime.Now, "987654321", "Meeting", "First time meeting", "Mary", "Smith");
+                Notification notification1 = new Notification(DateTime.Now.ToString("MM/dd/yyyy"), "987654321", "Meeting", "First time meeting", "Mary", "Smith");
+                Notification notification2 = new Notification(DateTime.Now.ToString("MM/dd/yyyy"), "987654321", "Meeting", "First time meeting", "Mary", "Smith");
 
 
                 notifications1.Add(notification1);
@@ -59,7 +59,7 @@ namespace Alumni_CRM
             if (IsPostBack)
             {
                 List<Notification> notifications4 = new List<Notification>();
-                Notification notification4 = new Notification(DateTime.Now.AddDays(-1), "987654432", "Meeting", "First time meeting", "Mary", "Smith");
+                Notification notification4 = new Notification(DateTime.Now.AddDays(-1).ToString("MM/dd/yyyy"), "987654432", "Meeting", "First time meeting", "Mary", "Smith");
                 notifications4.Add(notification4);
                 rpNotification4.DataSource = notifications4;
                 rpNotification4.DataBind();
@@ -70,7 +70,7 @@ namespace Alumni_CRM
         protected void btnNext_Click(object sender, EventArgs e)
         {
             List<Notification> notifications3 = new List<Notification>();
-            Notification notification3 = new Notification(DateTime.Now.AddDays(1), "987654332", "Meeting", "First time meeting", "Mary", "Smith");
+            Notification notification3 = new Notification(DateTime.Now.AddDays(1).ToString("MM/dd/yyyy"), "987654332", "Meeting", "First time meeting", "Mary", "Smith");
             notifications3.Add(notification3);
             rpNotification3.DataSource = notifications3;
             rpNotification3.DataBind();
