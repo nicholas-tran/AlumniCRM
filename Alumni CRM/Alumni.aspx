@@ -35,8 +35,8 @@
             </Columns>
             <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#a41e35" Font-Bold="True" ForeColor="White"/>
-            <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
-            <RowStyle BackColor="#FFFBD6" ForeColor="#333333"/>
+            <PagerStyle BackColor="#FFFFFF" ForeColor="#333333" HorizontalAlign="Center" />
+            <RowStyle BackColor="#FFFFFF" ForeColor="#333333"/>
             <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
             <SortedAscendingCellStyle BackColor="#FDF5AC" />
             <SortedAscendingHeaderStyle BackColor="#4D0000" />

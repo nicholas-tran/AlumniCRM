@@ -155,6 +155,7 @@ td {
     border: 2px solid white;
     margin: auto;
     min-width: 350px;
+    text-align: left;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */

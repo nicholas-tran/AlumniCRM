@@ -22,7 +22,7 @@
         <div class="text-center" style="margin: auto; width: 60%; padding-bottom: 20px;">
             <div class="display">
                 <h3 style="text-align: left"></h3>
-                <div class="table-responsive">
+                <div class="table-responsive" style="text-align: left;">
                     <asp:Repeater runat="server" ID="rpNotification1" OnItemCommand="rpNotification1_ItemCommand">
                         <HeaderTemplate>
                             <table>
