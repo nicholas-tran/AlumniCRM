@@ -28,6 +28,14 @@
                             10:00 A.M. to 12:00 P.M.
                         </asp:TableCell>
                     </asp:TableRow>
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            Location:
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            Liacouras Walk
+                        </asp:TableCell>
+                    </asp:TableRow>
                 </asp:Table>
             </div>
             <div class="col-md-4">
@@ -57,7 +65,7 @@
             </div>
             <div class="col-md-4">
                 <h3>Alumni Attended</h3>
-                                <asp:Table runat="server" ID="Table2" CssClass="tableContent">
+                <asp:Table runat="server" ID="Table2" CssClass="tableContent">
                     <asp:TableRow>
                         <asp:TableCell>
                             Event has not occured yet.
@@ -66,8 +74,8 @@
                 </asp:Table>
             </div>
             <div class="col-lg-12">
-                <asp:Button runat="server" ID="btnEdit" CssClass="btn btn-default" Text ="Edit"/>
-                <asp:Button runat="server" ID="btnDelete" CssClass="btn btn-danger" Text ="Delete"/>
+                <asp:Button runat="server" ID="btnEdit" CssClass="btn btn-default" Text="Edit" />
+                <asp:Button runat="server" ID="btnDelete" CssClass="btn btn-danger" Text="Delete" />
             </div>
         </div>
     </div>

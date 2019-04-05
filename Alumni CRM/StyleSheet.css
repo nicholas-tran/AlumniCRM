@@ -84,6 +84,7 @@ h1 {
     margin-bottom: 55px;
 }
 
+/*Circles for analytics*/
 .analyticBox {
     border: dotted;
     border-radius: 100px;
@@ -91,10 +92,13 @@ h1 {
     width: 200px;
     height: 200px;
     margin: auto;
-    padding-top: 50px;
-    display: block
+    margin-top: 20px;
+    padding-top: 55px;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
+/*Style for text in Analytics Page*/
 .analyticNumber {
     color: #a41e35;
     font-size: 40px;
@@ -103,6 +107,7 @@ h1 {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+
 
 .notification {
     border: 1px solid gray;

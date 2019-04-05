@@ -7,10 +7,9 @@
 
     <ul class="pager">
         <li>
-            <asp:Button ID="btnPrevious" class="btn btn-danger" runat="server" OnClick="Button1_Click" Text="Previous" />
+            <asp:Button ID="btnPrevious" class="btn btn-danger" runat="server" OnClick="Button1_Click" Text="Previous"/>
         </li>
         <asp:Label Style="font-size: 15px;" ID="lblDate" runat="server" Text="Today"></asp:Label>
-
         <li>
             <asp:Button ID="btnNext" runat="server" class="btn btn-danger" Text="Next" OnClick="btnNext_Click" /></li>
 
@@ -19,13 +18,12 @@
 
 
     <div class="container center-block notification">
-        <div class="text-center" style="margin: auto; width: 60%; padding-bottom: 20px;">
-            <div class="display">
-                <h3 style="text-align: left"></h3>
+        <div class="text-center" style="margin: auto; padding-bottom: 20px;">
+            <div class="display container">
                 <div class="table-responsive" style="text-align: left;">
                     <asp:Repeater runat="server" ID="rpNotification1" OnItemCommand="rpNotification1_ItemCommand">
                         <HeaderTemplate>
-                            <table>
+                            <table class="table">
                                 <thead>
                                     <tr>
                                         <th>Notification Date</th>
@@ -61,7 +59,7 @@
                 <div class="table-responsive">
                     <asp:Repeater runat="server" ID="rpNotification2">
                         <HeaderTemplate>
-                            <table>
+                            <table class="table">
                                 <thead>
                                     <tr>
                                         <th>Notification Date</th>
@@ -98,7 +96,7 @@
             <div class="table-responsive">
                 <asp:Repeater runat="server" ID="rpNotification3">
                     <HeaderTemplate>
-                        <table>
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th>Notification Date</th>
