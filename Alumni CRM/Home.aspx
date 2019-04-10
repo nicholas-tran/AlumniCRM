@@ -18,7 +18,7 @@
 
 
     <div class="container center-block notification">
-        <div class="text-center" style="margin: auto; padding-bottom: 20px;">
+        <div class="text-center" style="margin: auto; padding: 20px;">
             <div class="display container">
                 <div class="table-responsive">
                     <asp:Repeater runat="server" ID="rpNotification1" OnItemCommand="rpNotification1_ItemCommand">

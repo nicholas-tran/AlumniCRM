@@ -37,7 +37,20 @@
                             1925 N 12th St, Philadelphia, PA 19122
                         </asp:TableCell>
                     </asp:TableRow>
+                    <asp:TableRow>
+                        <asp:TableCell>
+                            Presentation:
+                        </asp:TableCell>
+                        <asp:TableCell>
+                            Alumni Career Presentation
+                        </asp:TableCell>
+                    </asp:TableRow>
                 </asp:Table>
+                <div class="text-center">
+                    <h4>Upload File</h4>
+
+                    <asp:FileUpload ID="FileUpload1" runat="server"/>
+                </div>
             </div>
             <div class="col-md-4">
                 <h3>Alumni Registered</h3>
