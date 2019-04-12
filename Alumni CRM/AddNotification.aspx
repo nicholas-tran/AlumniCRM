@@ -9,7 +9,10 @@
             <div class="col-lg-3">
             </div>
             <div class="col-lg-6">
-                Notification Type:
+                Title:
+                    <asp:TextBox runat="server" ID="TextBox1" CssClass="form-control"></asp:TextBox>
+                <br />
+                Type:
                     <asp:DropDownList runat="server" ID="ddlNotificationType" CssClass="form-control">
                         <asp:ListItem>Event</asp:ListItem>
                         <asp:ListItem>Guidance</asp:ListItem>
@@ -27,7 +30,7 @@
                     <asp:Calendar ID="cldNotification" runat="server" Style="margin: auto;"></asp:Calendar>
 
                 <br />
-                <asp:Button runat="server" ID="btnCreateNotification" Text="Create Notification" CssClass="btn btn-danger center-block" OnClick="btnCreateNotification_Click"/>
+                <asp:Button runat="server" ID="btnCreateNotification" Text="Create Notification" CssClass="btn btn-danger center-block  " OnClick="btnCreateNotification_Click"/>
             </div>
             <div class="col-lg-3">
             </div>

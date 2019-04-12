@@ -38,7 +38,7 @@
                             <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="Alumni.aspx">View Alumni</a></li>
-                                <li><a href="AddAlumnus.aspx">Add Alumnus</a></li>
+                                <li><a href="AddAlumnus.aspx">Add Alumni</a></li>
                             </ul>
                         </li>
                         <li><a href="Analytics.aspx">Analytics</a></li>

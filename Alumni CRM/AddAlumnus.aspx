@@ -31,6 +31,12 @@
                     E-mail: 
                     <asp:TextBox runat="server" ID="TextBox3" CssClass="form-control"></asp:TextBox>
                     <br />
+                    School 1:                     
+                    <asp:TextBox runat="server" ID="TextBox10" CssClass="form-control"></asp:TextBox>                 
+                    <br />
+                    School 2:                     
+                    <asp:TextBox runat="server" ID="TextBox11" CssClass="form-control"></asp:TextBox>
+                    <br />
                     Company Name:
                     <asp:TextBox runat="server" ID="TextBox4" CssClass="form-control"></asp:TextBox>
                     <br />

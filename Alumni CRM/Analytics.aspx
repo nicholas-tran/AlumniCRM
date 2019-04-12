@@ -20,7 +20,8 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <asp:Button runat="server" CssClass="btn btn-danger center-block" Text="Submit" />
+                <asp:Button runat="server" CssClass="btn btn-danger" Text="Submit" />
+                <asp:Button runat="server" CssClass="btn btn-danger" Text="Download" />
             </div>
         </div>
     </div>
